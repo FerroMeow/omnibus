@@ -468,7 +468,7 @@ class iworks_omnibus_integration_woocommerce extends iworks_omnibus_integration 
 	/**
 	 * get lowest price
 	 */
-	private function get_lowest_price( $product ) {
+	public function get_lowest_price( $product ) {
 		/**
 		 * get price
 		 *
